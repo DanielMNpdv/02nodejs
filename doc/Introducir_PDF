@@ -1,0 +1,49 @@
+14/10/20
+
+Cuando hay funciones dentro de clases se llaman metodos, 
+y las variables que estan dentro de la clase se llaman atributos, 
+lo que van delante de los metodos son modificadores,
+los metodos y los atributos son propiedades de la clase,
+para poder invocar un metodo get necesitas un metodo set antes.
+
+En el proyecto meter las clases en una carpeta llamada model, y esta dentro de src
+todo lo que tu escribas debe estar dentro de src.
+En la carpeta de doc haces un pdf donde vayas explicando todos los conceptos que vas aprendiendo,
+tienes que comentar las lineas mas importantes en tu codigo.
+El readme va siempre en el raiz
+
+
+let per = {
+    nombre: string,
+    edad: Number
+}
+//Las clases son como variables compuestas y se escriben siempre con mayusculas, pones private en 
+class ordenador {
+    private "marca": string,
+    private "procesador": string
+
+    constructor(marca: string){
+        this.marca = marca
+    }
+
+    setProcesador(procesador: string){
+        this.chip = procesador
+    }
+
+    getProcesador() {
+        return this.chip
+    }
+
+    get
+}
+
+//Los metodos son:
+
+let o1 = new Ordenador()
+
+//propiedades de o1, no debes de declarar las propiedades fueras de la clase:
+o1.marca = "Dell"
+o1.procesador = "i7"
+
+console.log(o1.procesador)
+
